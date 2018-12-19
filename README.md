@@ -15,7 +15,7 @@ It has a build in webserver, supports HMR (hot module replacement) out of the bo
 
 ## How did I solve the coding demo
 
-For a better code structure I tried to follow the <a href="https://www.google.com/search?q=+BEM-Methodology" target="_blank">BEM-Methodology</a>. Therefore I split the JavaScript and CSS code in a few different files. The naming of the files corespondents to the components for what the code in the files is ment for. E.g the `_modal.scss` file contains only code for the ```html class="modal"``` element.
+For a better code structure I tried to follow the <a href="https://www.google.com/search?q=+BEM-Methodology" target="_blank">BEM-Methodology</a>. Therefore I split the JavaScript and CSS code in a few different files. The naming of the files corespondents to the components for what the code in the files is ment for. E.g the `_modal.scss` file contains only code for the `class="modal"` element.
 
 Then, with the help of jQuery a modal is revealed in which some sample data is dynamically loaded.
 
@@ -58,5 +58,5 @@ Go to `http://localhost:1234` and watch
 ```shell
 $ parcel build app/index.html
 ```
-- the output of this task can be found in the ```shell ./dist``` Folder
+- the output of this task can be found in the `./dist` Folder
 ---
