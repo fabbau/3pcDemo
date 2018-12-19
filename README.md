@@ -36,11 +36,11 @@ $ npm install -g parcel-bundler
 
 ### Clone
 
-- Clone this repo to your local machine with:  `https://github.com/`
+Clone this repo to your local machine with:  `https://github.com/fabbau/3pcDemo.git`
 
 ### Setup
 
-> install dependencies using npm
+> cd to 3pcDemo and install dependencies using
 
 ```shell
 $ npm install
