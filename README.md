@@ -25,14 +25,13 @@ Finally, with some CSS rules and jQuery methods the content and styles of the mo
 
 ## Installation
 
-First install the Parcel bundler CLI: 
-> (more Info about Parceljs can be found here: <a href="https://parceljs.org" target="_blank">Parcel</a>)
+First install the Parcel bundler CLI
 
 ```shell
 $ npm install -g parcel-bundler
 ```
 
-***Note: To get started, you need to have Node.js installed. If you don't have it, grab it here: ***
+**Note: To get started, you need to have Node.js installed. If you don't have it, grab it here: **
 <a href="https://nodejs.org/" target="_blank">Node</a>
 
 ### Clone
