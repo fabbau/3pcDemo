@@ -1,0 +1,20 @@
+/* Button Stylessheet */
+.btn {
+  background-color: $mainColor;
+  text-decoration: none;
+  color: white;
+  width: 197px;
+  height: 88px;
+  font-weight: 700;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+}

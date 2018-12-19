@@ -1,0 +1,115 @@
+/* Styles for the Modal component */
+.modal {
+  position: fixed;
+	z-index: 5;
+	background-color: rgba(0,0,0, 0.36);
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	visibility: hidden;
+	transform: scale(1.2);
+  transition: all .3s ease-out;
+  overflow-y: auto;
+  
+  &__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &--is-visible {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+  }
+
+  &__content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  &__title {
+    color: $white;
+    position: absolute;
+    transform: translate(0%, -200%);
+  }
+  
+  &__categories-list {
+    display: flex;
+    justify-content: flex-start;
+    flex: initial;
+    flex-wrap: wrap;
+    margin-right: 0px;
+  }
+  
+  &__categories-list-item {
+    width: 50%;
+    height: 82px;
+    padding: 0.3rem;
+    background-color: $white;
+    transition: background-color.3s linear, color .3s linear;
+    margin-bottom: 12px;
+    color: $mainColor;
+    font-weight: 700;
+  }
+  
+  &__categories-detail {
+    background-color: $mainColor;
+    width: 100%;
+    height: 500px;
+    padding: 1rem;
+    overflow: hidden;
+    color: $white;
+  }
+  
+  &__close {
+    position: relative;
+    right: -45vw;
+    font-size: 2rem;
+    transform: scaleX(1.3);
+    transform-origin: 100% 0;
+    cursor: pointer;
+    color: $white;
+  }
+
+  .br {
+    border-right: 12px solid #a3a3a3;
+  }
+
+  .active {
+    background-color: $mainColor;
+    color: $white;
+  }
+
+  /* Desktop Styles */
+  @media only screen and (min-width: 821px) {
+
+    &__categories-list {
+      width: 320px;
+      margin-right: 12px;
+    }
+
+    &__close {
+      left: 850px;
+      top: -66px;
+    }
+
+    &__categories-detail {
+      width: 500px;
+      margin-bottom: 21px;
+    }
+
+    &__inner {
+      height: 100vh;
+    }
+  }
+}
+
+
+
+
+
+

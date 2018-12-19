@@ -1,0 +1,21 @@
+{
+  "name": "3pcsample",
+  "version": "1.0.0",
+  "description": "3pc Probearbeit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "3pc",
+    "test",
+    "code"
+  ],
+  "author": "Fabian Bauer",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.4.3",
+    "cssnano": "^4.1.7",
+    "sass": "^1.15.2"
+  }
+}
